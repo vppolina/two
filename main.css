@@ -11,7 +11,7 @@
 	font-family: Raleway; 
 }
 
-div.menu {
+.menu {
 	height: 20px;
 	padding: 20px;
 	text-align: center;
@@ -20,23 +20,37 @@ div.menu {
 
 }
 
+#header_button {
+	float: left;
+	height: 60px;		
+
+}
+
+#header_menu {
+	float: right;
+
+
+}
+
 .main_link {
 		height: 60px;
 		width: 150px;
 		background-color: #2A2828;
-		margin-bottom: -60px;
+		/*margin-bottom: -60px;*/
 		border: none;
+		/*float: left;*/
 }
 	
 
-div.block_menu {
+.block_menu {
 	/*overflow:visible;*/
 	/*margin-left: 79.63%;*/
-	float: right;
+	/*float: right;*/
 	/*position: fixed;*/
-	position: relative;
+	/*position: relative;*/
 
-
+	width: 100%;
+	height: 60px;
 }
 
 div.menu:hover{
@@ -61,10 +75,9 @@ a {
 	background-color: #2A2828;
 	color: white;
 	border: none;
-  	text-align: center;
   	font-size: 15px;
   	position: relative;
-    left: 45%;
+/*    left: 45%;*/
     top: -90px;
 }
 
@@ -140,10 +153,8 @@ hr {
 	background-color: #2A2828;
 	color: white;
 	border: none;
-  	text-align: center;
   	font-size: 15px;
   	position: relative;
-    left: 45%;
     top: -90px;
 }
 
@@ -189,20 +200,24 @@ h1 {
 }
 
 .text_block {
-	width: 60%;
+	width: 47%;
 	text-align: center;
-	padding: 50px 100px;
-	margin: auto;
-	float: left;
+	/*padding: 60px;*/
+	/*float: left;*/
+	display: inline-block;
+	padding: 90px;
 }
 
 .photo_block {
-	width: 40%;
-	margin: auto;
-	padding: auto;
-
+	width: 400px;
+	height: 400px;
+	/*margin: auto;*/
+	padding: 50px;
+	/*text-align: center;*/
+	display: inline-block;
 
 }
+
 .photo {
 	width: 130px;
 	height: 130px;
@@ -228,14 +243,8 @@ h1 {
 
 .read_me {
 	width: 60%;
-	/*text-align: center;
-	margin: auto;
-	margin-left: 120px;
-	margin-right: 50px; 
-	padding: 20px;
-	/*float: left;*/
 	text-align: center;
-	padding: 50px 100px 50px 200px;
+	padding: 50px 100px 50px 100px;
 	margin: auto;
 	float: left;
 
